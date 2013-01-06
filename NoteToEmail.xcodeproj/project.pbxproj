@@ -18,6 +18,7 @@
 		ED1E7DD91699332F00558443 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED1E7DD81699332F00558443 /* Default-568h@2x.png */; };
 		ED1E7DDC1699332F00558443 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1E7DDA1699332F00558443 /* MainStoryboard.storyboard */; };
 		ED1E7DDF1699332F00558443 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1E7DDE1699332F00558443 /* ViewController.m */; };
+		ED1E7DEA1699E62500558443 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED1E7DE91699E62500558443 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		ED1E7DDB1699332F00558443 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		ED1E7DDD1699332F00558443 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		ED1E7DDE1699332F00558443 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED1E7DE91699E62500558443 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED1E7DEA1699E62500558443 /* MessageUI.framework in Frameworks */,
 				ED1E7DC31699332F00558443 /* UIKit.framework in Frameworks */,
 				ED1E7DC51699332F00558443 /* Foundation.framework in Frameworks */,
 				ED1E7DC71699332F00558443 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +59,7 @@
 		ED1E7DB31699332F00558443 = {
 			isa = PBXGroup;
 			children = (
+				ED1E7DE91699E62500558443 /* MessageUI.framework */,
 				ED1E7DC81699332F00558443 /* NoteToEmail */,
 				ED1E7DC11699332F00558443 /* Frameworks */,
 				ED1E7DBF1699332F00558443 /* Products */,
