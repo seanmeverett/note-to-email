@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED1E7DC31699332F00558443 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED1E7DC21699332F00558443 /* UIKit.framework */; };
+		ED1E7DC51699332F00558443 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED1E7DC41699332F00558443 /* Foundation.framework */; };
+		ED1E7DC71699332F00558443 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED1E7DC61699332F00558443 /* CoreGraphics.framework */; };
+		ED1E7DCD1699332F00558443 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED1E7DCB1699332F00558443 /* InfoPlist.strings */; };
+		ED1E7DCF1699332F00558443 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1E7DCE1699332F00558443 /* main.m */; };
+		ED1E7DD31699332F00558443 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1E7DD21699332F00558443 /* AppDelegate.m */; };
+		ED1E7DD51699332F00558443 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ED1E7DD41699332F00558443 /* Default.png */; };
+		ED1E7DD71699332F00558443 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED1E7DD61699332F00558443 /* Default@2x.png */; };
+		ED1E7DD91699332F00558443 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED1E7DD81699332F00558443 /* Default-568h@2x.png */; };
+		ED1E7DDC1699332F00558443 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1E7DDA1699332F00558443 /* MainStoryboard.storyboard */; };
+		ED1E7DDF1699332F00558443 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1E7DDE1699332F00558443 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED1E7DBE1699332F00558443 /* NoteToEmail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteToEmail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1E7DC21699332F00558443 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ED1E7DC41699332F00558443 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ED1E7DC61699332F00558443 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ED1E7DCA1699332F00558443 /* NoteToEmail-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NoteToEmail-Info.plist"; sourceTree = "<group>"; };
+		ED1E7DCC1699332F00558443 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED1E7DCE1699332F00558443 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED1E7DD01699332F00558443 /* NoteToEmail-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NoteToEmail-Prefix.pch"; sourceTree = "<group>"; };
+		ED1E7DD11699332F00558443 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED1E7DD21699332F00558443 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED1E7DD41699332F00558443 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ED1E7DD61699332F00558443 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ED1E7DD81699332F00558443 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ED1E7DDB1699332F00558443 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		ED1E7DDD1699332F00558443 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED1E7DDE1699332F00558443 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED1E7DBB1699332F00558443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1E7DC31699332F00558443 /* UIKit.framework in Frameworks */,
+				ED1E7DC51699332F00558443 /* Foundation.framework in Frameworks */,
+				ED1E7DC71699332F00558443 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED1E7DB31699332F00558443 = {
+			isa = PBXGroup;
+			children = (
+				ED1E7DC81699332F00558443 /* NoteToEmail */,
+				ED1E7DC11699332F00558443 /* Frameworks */,
+				ED1E7DBF1699332F00558443 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED1E7DBF1699332F00558443 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED1E7DBE1699332F00558443 /* NoteToEmail.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED1E7DC11699332F00558443 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED1E7DC21699332F00558443 /* UIKit.framework */,
+				ED1E7DC41699332F00558443 /* Foundation.framework */,
+				ED1E7DC61699332F00558443 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED1E7DC81699332F00558443 /* NoteToEmail */ = {
+			isa = PBXGroup;
+			children = (
+				ED1E7DD11699332F00558443 /* AppDelegate.h */,
+				ED1E7DD21699332F00558443 /* AppDelegate.m */,
+				ED1E7DDA1699332F00558443 /* MainStoryboard.storyboard */,
+				ED1E7DDD1699332F00558443 /* ViewController.h */,
+				ED1E7DDE1699332F00558443 /* ViewController.m */,
+				ED1E7DC91699332F00558443 /* Supporting Files */,
+			);
+			path = NoteToEmail;
+			sourceTree = "<group>";
+		};
+		ED1E7DC91699332F00558443 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED1E7DCA1699332F00558443 /* NoteToEmail-Info.plist */,
+				ED1E7DCB1699332F00558443 /* InfoPlist.strings */,
+				ED1E7DCE1699332F00558443 /* main.m */,
+				ED1E7DD01699332F00558443 /* NoteToEmail-Prefix.pch */,
+				ED1E7DD41699332F00558443 /* Default.png */,
+				ED1E7DD61699332F00558443 /* Default@2x.png */,
+				ED1E7DD81699332F00558443 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED1E7DBD1699332F00558443 /* NoteToEmail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED1E7DE21699332F00558443 /* Build configuration list for PBXNativeTarget "NoteToEmail" */;
+			buildPhases = (
+				ED1E7DBA1699332F00558443 /* Sources */,
+				ED1E7DBB1699332F00558443 /* Frameworks */,
+				ED1E7DBC1699332F00558443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoteToEmail;
+			productName = NoteToEmail;
+			productReference = ED1E7DBE1699332F00558443 /* NoteToEmail.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED1E7DB51699332F00558443 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Sean Everett";
+			};
+			buildConfigurationList = ED1E7DB81699332F00558443 /* Build configuration list for PBXProject "NoteToEmail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ED1E7DB31699332F00558443;
+			productRefGroup = ED1E7DBF1699332F00558443 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED1E7DBD1699332F00558443 /* NoteToEmail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED1E7DBC1699332F00558443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1E7DCD1699332F00558443 /* InfoPlist.strings in Resources */,
+				ED1E7DD51699332F00558443 /* Default.png in Resources */,
+				ED1E7DD71699332F00558443 /* Default@2x.png in Resources */,
+				ED1E7DD91699332F00558443 /* Default-568h@2x.png in Resources */,
+				ED1E7DDC1699332F00558443 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED1E7DBA1699332F00558443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1E7DCF1699332F00558443 /* main.m in Sources */,
+				ED1E7DD31699332F00558443 /* AppDelegate.m in Sources */,
+				ED1E7DDF1699332F00558443 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED1E7DCB1699332F00558443 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED1E7DCC1699332F00558443 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ED1E7DDA1699332F00558443 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED1E7DDB1699332F00558443 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED1E7DE01699332F00558443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED1E7DE11699332F00558443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED1E7DE31699332F00558443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoteToEmail/NoteToEmail-Prefix.pch";
+				INFOPLIST_FILE = "NoteToEmail/NoteToEmail-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ED1E7DE41699332F00558443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoteToEmail/NoteToEmail-Prefix.pch";
+				INFOPLIST_FILE = "NoteToEmail/NoteToEmail-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED1E7DB81699332F00558443 /* Build configuration list for PBXProject "NoteToEmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1E7DE01699332F00558443 /* Debug */,
+				ED1E7DE11699332F00558443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED1E7DE21699332F00558443 /* Build configuration list for PBXNativeTarget "NoteToEmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1E7DE31699332F00558443 /* Debug */,
+				ED1E7DE41699332F00558443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED1E7DB51699332F00558443 /* Project object */;
+}
