@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SettingsViewController.h"
 
 @interface ViewController ()
 
@@ -68,4 +69,10 @@
     [self dismissViewControllerAnimated:YES completion:NULL];
 }
 
+- (IBAction)showSettings:(id)sender
+{
+    SettingsViewController *controller = [[SettingsViewController alloc] initWithNibName:@"SettingsViewController" bundle:nil];
+    controller.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    [self presentViewController:controller animated:YES completion:NULL];
+}
 @end

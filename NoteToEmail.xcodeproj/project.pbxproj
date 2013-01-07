@@ -19,6 +19,8 @@
 		ED1E7DDC1699332F00558443 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1E7DDA1699332F00558443 /* MainStoryboard.storyboard */; };
 		ED1E7DDF1699332F00558443 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1E7DDE1699332F00558443 /* ViewController.m */; };
 		ED1E7DEA1699E62500558443 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED1E7DE91699E62500558443 /* MessageUI.framework */; };
+		ED1E7DFA169A435700558443 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1E7DF8169A435700558443 /* SettingsViewController.m */; };
+		ED1E7DFB169A435700558443 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED1E7DF9169A435700558443 /* SettingsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,9 @@
 		ED1E7DDD1699332F00558443 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		ED1E7DDE1699332F00558443 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ED1E7DE91699E62500558443 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		ED1E7DF7169A435700558443 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		ED1E7DF8169A435700558443 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		ED1E7DF9169A435700558443 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +97,9 @@
 				ED1E7DDA1699332F00558443 /* MainStoryboard.storyboard */,
 				ED1E7DDD1699332F00558443 /* ViewController.h */,
 				ED1E7DDE1699332F00558443 /* ViewController.m */,
+				ED1E7DF7169A435700558443 /* SettingsViewController.h */,
+				ED1E7DF8169A435700558443 /* SettingsViewController.m */,
+				ED1E7DF9169A435700558443 /* SettingsViewController.xib */,
 				ED1E7DC91699332F00558443 /* Supporting Files */,
 			);
 			path = NoteToEmail;
@@ -167,6 +175,7 @@
 				ED1E7DD71699332F00558443 /* Default@2x.png in Resources */,
 				ED1E7DD91699332F00558443 /* Default-568h@2x.png in Resources */,
 				ED1E7DDC1699332F00558443 /* MainStoryboard.storyboard in Resources */,
+				ED1E7DFB169A435700558443 /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +189,7 @@
 				ED1E7DCF1699332F00558443 /* main.m in Sources */,
 				ED1E7DD31699332F00558443 /* AppDelegate.m in Sources */,
 				ED1E7DDF1699332F00558443 /* ViewController.m in Sources */,
+				ED1E7DFA169A435700558443 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +306,7 @@
 				ED1E7DE41699332F00558443 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

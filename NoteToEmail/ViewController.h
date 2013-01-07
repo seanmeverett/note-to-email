@@ -10,6 +10,9 @@
 #import <MessageUI/MessageUI.h>
 
 @interface ViewController : UIViewController <MFMailComposeViewControllerDelegate> //add the delegate
+
+- (IBAction)showSettings:(id)sender;
 - (IBAction)showEmail:(id)sender;
+
 
 @end
